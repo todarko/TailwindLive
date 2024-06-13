@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0</Version>
+    <Authors>todarko</Authors>
+    <Company>self</Company>
+    <Description>Quickly get a live set up using TailwindCSS and .NET web projects in Visual Studio 2022</Description>
+  </PropertyGroup>
+    <PropertyGroup>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        		<None Include="licenses\LICENSE.txt" Pack="true" PackagePath="" />
+    </ItemGroup>
+  <ItemGroup>
+    <None Remove="licenses\LICENSE" />
+  </ItemGroup>
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="licenses\LICENSE">
+        <Generator>SettingsSingleFileGenerator</Generator>
+        <LastGenOutput>license.Designer.cs</LastGenOutput>
+      </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Update="licenses\LICENSE.Designer.cs">
+        <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>LICENSE</DependentUpon>
+      </Compile>
+    </ItemGroup>
+</Project>
