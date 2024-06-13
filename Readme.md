@@ -2,7 +2,7 @@
 
 Make sure you have **git bash**, **npm**, and **node** installed on your local machine. Hot reload also needs to be enabled in VS2022. Works with RazorPages and Blazor Server .NET 8
 
-![<Make sure Hot Reload on File Save is checked!>](hotreload.png)
+![<Make sure Hot Reload on File Save is checked!>](https://raw.githubusercontent.com/todarko/TailwindLive/master/hotreload.png)
 
 To help refreshing, also install the following extension for autosaving [AutoSaveFile](https://marketplace.visualstudio.com/items?itemName=HRai.AutoSaveFile). 3 seconds for the save setting seems to work great.
 
