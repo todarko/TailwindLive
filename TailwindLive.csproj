@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>todarko</Authors>
     <Company>self</Company>
     <Description>Quickly get a live set up using TailwindCSS and .NET web projects in Visual Studio 2022</Description>
