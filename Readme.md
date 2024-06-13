@@ -9,7 +9,7 @@ Make sure Hot Reload on File Save is checked!
 
 To help refreshing, also install the following extension for autosaving [AutoSaveFile](https://marketplace.visualstudio.com/items?itemName=HRai.AutoSaveFile). 3 seconds for the save setting seems to work great.
 
-For IntelliSense use the following extension [IntelliSense](https://marketplace.visualstudio.com/items?itemName=TheronWang.TailwindCSSIntellisense).
+For IntelliSense use the following extension [Tailwind CSS VS2022 Editor Support](https://marketplace.visualstudio.com/items?itemName=TheronWang.TailwindCSSIntellisense).
 
 **Install TailwindCSS:**
  -   Open a terminal (e.g., Command Prompt, PowerShell, or terminal in Visual Studio).
